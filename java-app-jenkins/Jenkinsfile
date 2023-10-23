@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Output') {
       steps {
-        sh 'cat HelloWorld'
+        sh 'cat HelloWorld.java'
       }
     }
   }
